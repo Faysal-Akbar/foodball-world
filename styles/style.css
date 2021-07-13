@@ -1,0 +1,83 @@
+/*----------------------
+  Google fonts applied 
+------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*----------------------
+      utilities
+------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/*----------------------
+      styles banner
+-----------------------*/
+.container{
+    background-color: #2D25A0;
+    padding: 50px 150px;
+    margin-bottom: 30px;
+}
+.banner{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 102px;
+    align-items: center;
+    line-height: 25px;
+}
+.half-width h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+.half-width img{
+    width: 556px;
+    height: 438px;
+}
+.half-width:hover img{
+    transform: scale(0.5) rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+.half-width .anchor{
+    color: white;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
+
+/*-----------------------
+   players about styles 
+-----------------------*/
+
+.another-container{
+    /* margin-top: 30px; */
+    padding: 50px 150px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 27px;
+}
+.player{
+    padding: 15px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player .thumnail img{
+    width: 300px;
+    height: 256px;
+}
+.player h3{
+    font-size: 28px;
+    color: #18191F;
+    font-weight: 700;
+}
+.player p{
+    font-size: 16px;
+    color: #6C6C6C;
+    font-weight: 400;
+}
